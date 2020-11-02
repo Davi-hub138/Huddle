@@ -1,0 +1,49 @@
+body {
+  background-image: urL("bg-desktop.svg");
+  background-color: #674baf;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 4rem;
+}
+
+img {
+  padding-left: 3.7rem;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div1 {
+  padding-right: 100px;
+}
+
+.div2 h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.div2 p {
+  color: white;
+  font-weight: 100;
+}
+
+button {
+  background-color: white;
+  color: #674baf;
+  border: none;
+  border-radius: 200px;
+  padding: 20px 40px;
+  font-size: larger;
+  font-weight: 200;
+  margin: none;
+}
+/*# sourceMappingURL=style.css.map */

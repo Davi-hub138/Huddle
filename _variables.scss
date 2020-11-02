@@ -1,0 +1,14 @@
+$background:hsl(257, 40%, 49%);
+$plain:white;
+
+$font:(
+    'x-light':100,
+    'light':200,
+     'bold':700
+);
+@function font-weight($fontweight){
+    @return map-get($font,$fontweight);
+}
+@mixin flex() {
+    display: flex;
+}

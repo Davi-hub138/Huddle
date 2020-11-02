@@ -1,0 +1,50 @@
+@import 'variables';
+
+body{
+    background-image:urL("bg-desktop.svg");
+    background-color: $background;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    font-weight: font-weight(bold);
+    color:$plain;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 4rem;
+}
+img{
+    padding-left: 3.7rem;
+    
+}
+.main{
+    @include flex();
+}
+.div1{
+padding-right: 100px;
+}
+.div2{
+   h1{
+font-size:40px;
+color:$plain;
+} 
+} 
+.div2{
+    p{
+color: $plain;
+font-weight: font-weight(x-light);
+}
+}
+ 
+
+button{
+    background-color: $plain;
+    color:$background;
+    border:none;
+    border-radius: 200px;
+    padding:20px 40px;
+    font-size: larger;
+    font-weight: font-weight(light);
+    margin:none;
+  
+}
+
